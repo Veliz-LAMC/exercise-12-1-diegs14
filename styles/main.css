@@ -138,7 +138,45 @@ article img {
 	margin: .5em 0 1em 1em;
 	border: 1px solid black;
 }
+/* styles for table*/
+table {
+    border-collapse: collapse;
+    width: 85%;
+    border-top: 2px solid #800000; 
+    border-bottom: 2px solid #800000; 
+}
+th, td {
+    padding: .2em;
+}
+td {
+    text-align: left;
+}
 
+.first-row {
+    border-top: 2px solid #800000;
+    border-bottom: 2px solid #800000;
+}
+.footer-top-border {
+    border-top: 2px solid #800000;
+}
+
+
+.savings-row{
+border-top: 2px solid #800000;
+    border-bottom: 2px solid #800000;
+}
+.merged-cell {
+	border-bottom: 2px solid #800000;
+}
+tfoot {
+    text-align: right;
+}
+thead {
+	text-align: left;
+}
+.special-price {
+	text-align: left;
+}
 /* the styles for the aside */
 aside {
 	width: 215px;
