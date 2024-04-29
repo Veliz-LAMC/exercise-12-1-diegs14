@@ -141,7 +141,7 @@ article img {
 /* styles for table*/
 table {
     border-collapse: collapse;
-    width: 85%;
+    width: 75%;
     border-top: 2px solid #800000; 
     border-bottom: 2px solid #800000; 
 }
@@ -152,11 +152,11 @@ td {
     text-align: left;
 }
 
-.first-row {
+.first {
     border-top: 2px solid #800000;
     border-bottom: 2px solid #800000;
 }
-.footer-top-border {
+.footer-border {
     border-top: 2px solid #800000;
 }
 
@@ -165,11 +165,14 @@ td {
 border-top: 2px solid #800000;
     border-bottom: 2px solid #800000;
 }
-.merged-cell {
+.merge {
 	border-bottom: 2px solid #800000;
 }
 tfoot {
     text-align: right;
+}
+.foot-text {
+	padding-right: 3em;
 }
 thead {
 	text-align: left;
